@@ -1,0 +1,29 @@
+
+header
+{
+     background: $background_blue;
+}
+.menu_bg
+{
+     ul
+     {
+          margin-right: 20px;
+     }
+     li
+     {
+          padding: 16px ;
+     }
+  a
+ {
+     color: $white !important;
+     font-size: 18px;
+ }
+}
+.header_button
+{
+     @include button_style(bg);
+     a{
+          color: $white;
+     }
+     
+}

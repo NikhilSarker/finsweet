@@ -1,0 +1,94 @@
+#query{
+      padding: 40px 0;
+      
+}
+.query_img{
+      .img_part{
+            position: relative;
+            img{
+                  height: 600px;
+            }
+            .contact_overlay
+            {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  height: 100%;
+                  width: 100%;
+                  content: "";
+                  background: #282938b6;
+                  .contact_content{
+                        position: absolute;
+                        top: 16%;
+                        left: 10%;
+                        p{
+                              color: $white;
+                              
+                        }
+                        .contact_details{
+                              margin-top: 20px;
+      
+                        }
+                  }
+      
+            }
+      }
+
+}
+
+
+.send_quiry{
+      background: $background_blue;
+      h4{
+
+            color: $white;
+            margin-bottom: 20px;
+      }
+      p{
+            color: $white;
+      }
+      .quiry_content
+      {
+            padding-left: 80px;
+            padding-top: 71.3px;
+      }
+      .query-form{
+            margin-top: 10px;
+            input{
+                  background: none;
+                  border: none;
+                  border: 1px solid $white;
+                  width: 70%;
+                  margin-top: 24px;
+                  padding: 14px 14px;
+                  color:$gray;
+            }
+      }
+      .quiry_button
+      {
+            margin-top: 24px;
+            margin-left: 55px;
+            a{
+                  @include button_style(bg);
+                  background: $hover_yellow;
+                  padding: 16px 70px;
+                  border: none;
+                  color: $royal_blue;
+                 
+                  
+            }
+           
+      }
+      .quiry_gettouch
+      {
+            a{
+                  color: $white;
+                  margin-left: 95px;
+                  margin-top: 20px;
+                  padding-bottom: 35.5px;
+                  i{
+                        margin-left: 10px;
+                  }
+            }
+      }
+}

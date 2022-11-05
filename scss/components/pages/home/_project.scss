@@ -1,0 +1,105 @@
+
+
+#project{
+      padding: 80px 0;
+}
+
+.project_view{
+      text-align: right;
+      margin-top: 20px;
+      margin-bottom:50px ;
+      i{
+            margin-left: 10px;
+      }
+}
+.project_item
+{ 
+     
+      .workhub_img{
+            margin-top: 18px;
+            position: relative;
+            &:hover .workhub_overlay{
+               opacity: 1;
+            }
+           
+            .workhub_overlay
+            {
+              position: absolute;
+              transition: .5s;
+              top: 0;
+              left: 0;
+              height: 100%;
+              width: 48%;
+              background: linear-gradient(to left,#1c1e53d6,#0c0503a6);
+              opacity: 0;
+              -webkit-transition: .5s;
+              -moz-transition: .5s;
+              -ms-transition: .5s;
+              -o-transition: .5s;
+}
+              .workhub_content
+             
+                {
+                  position: absolute;
+                  top: 45%;
+                  left: 10%;
+                  .workhub_heading{
+                        margin-bottom: 18px;
+                  }
+                  h5{
+                        color: $white;
+                        margin-top: 7px;
+                  }
+                  p{
+                        color: $white;
+                        
+                  }
+                  a{
+                        color: $yellow;
+                        margin-top: 16px;
+                  }
+              }
+              
+            
+            }
+      }
+      .website_img{
+            margin-top: 15px;
+            position: relative;
+            &:hover .website_overlay{
+             opacity: 1;
+            }
+            .website_overlay{
+                  position: absolute;
+                  transition: .5s;
+                  top: 0;
+                  left: 0;
+                  height: 100%;
+                  width: 100%;
+                  background: linear-gradient(to left,#1c1e53d6,#0c0503a6);
+                  opacity: 0;
+                  -webkit-transition: .5s;
+                  -moz-transition: .5s;
+                  -ms-transition: .5s;
+                  -o-transition: .5s;
+                  .wesite_content{
+                        position: absolute;
+                        top: 46%;
+                        left: 10%;
+                       
+                           h5{
+                              color: $white;
+                              margin-top: 5px;
+                           }
+                              
+                              
+                        }
+                        a{
+                              color: $yellow;
+                              margin-top: 7px;
+                        }
+                  }
+            }
+            .website_img.third {
+                  margin-top: 34px;
+                }

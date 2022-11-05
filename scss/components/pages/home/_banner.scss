@@ -1,0 +1,35 @@
+#banner{
+      background: $background_blue;
+      padding:  123px 0;
+}
+
+
+.banner_content
+{
+p{
+      color: $white;
+      margin-top: 10px;
+}
+}
+
+.banner_button
+{
+      margin-top: 40px;
+      a{
+            color: $white;
+           i{
+            margin-left: 10px
+           }
+            
+            
+      }
+      .work{
+            @include button_style(bg);
+            padding: 16px 50px;
+            background: $hover_yellow;
+            border: none;
+            color: $dark_blue;
+            margin-right: 24px;
+      }
+      
+}

@@ -1,0 +1,61 @@
+#contact{
+      background: $background_blue;
+      padding: 80px 0;
+      position: relative;
+}
+.footer_top{
+      
+      .contact_first{
+            img{
+                  margin-bottom: 20px;
+            }
+            p{
+                  color: $white;
+            }
+      }
+      .email_call{
+            position: absolute;
+            bottom: 0;
+            left: 4.4%;
+            background: $yellow;
+            padding: 20px 30px;
+            h6,p{
+                  color: $dark_blue;
+            }
+            p{
+                  margin-top: 5px;
+            }
+            .call_part{
+                  margin-left: 20px;
+            }
+      }
+
+}
+.talk_part{
+      h2{
+            margin-bottom: 15px;
+      }
+      h2,p{
+            color:$white;
+      }
+}
+.copy_write{
+      margin-top: 10px;
+}
+.footer_nav{
+      text-align: end;
+      a{
+            font-size: 16px;
+            padding: 10px;
+            color: $dark_blue;
+      }
+      li{
+            :last-child a{
+                  padding-right: 0;
+            }
+      }
+
+     
+     
+     }
+  

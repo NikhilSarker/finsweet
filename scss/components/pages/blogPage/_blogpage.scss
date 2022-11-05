@@ -1,0 +1,23 @@
+
+
+.more_content{
+      margin-top: 30px;
+      a{
+            margin-top: 10px;
+            color: $royal_blue;
+      }
+}
+#our-blog{
+ padding: 50px 0;
+ .ourBlog_content{
+      h5{
+            padding: 10px 0;
+      }
+      a{
+            color: $royal_blue;
+      }
+ }
+ .blog_item{
+      margin-top: 50px;
+ }
+}

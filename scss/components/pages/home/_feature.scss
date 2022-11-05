@@ -1,0 +1,42 @@
+#feature{
+      padding: 50px 0;
+      background: $background_gray;
+}
+.feature_heading
+{
+      margin-bottom: 30px;
+}
+.feature_item
+{
+      background: $white;
+      transition: .5s;
+      margin-top: 20px;
+     
+      -webkit-transition: .5s;
+      -moz-transition: .5s;
+      -ms-transition: .5s;
+      -o-transition: .5s;
+            &:hover{
+                  transform: translateY(-10px);
+                  -webkit-transform: translateY(-10px);
+                  -moz-transform: translateY(-10px);
+                  -ms-transform: translateY(-10px);
+                  -o-transform: translateY(-10px);
+
+            }
+          
+}
+      .feature_content{
+            padding: 45px 48px;
+            h5{
+                  padding: 13px 0;
+            }
+            i{
+                  color: $royal_blue;
+            }
+            p{
+                  font-size: 18px;
+            }
+      }
+      
+      

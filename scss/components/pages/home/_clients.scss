@@ -1,0 +1,72 @@
+
+#clients{
+      padding: 80px 0;
+      position: relative;
+      background: $grey;
+}
+   
+.client_say
+{
+      p{
+            font-size: 19px;
+            margin-top: 20px;
+      }
+}
+.client_content
+{
+      margin-left: 30px;
+      .profile{
+            margin-top: 60px;
+      }
+      .profile_img{
+            img{
+                  border-radius: 50%;
+                  -webkit-border-radius: 50%;
+                  -moz-border-radius: 50%;
+                  -ms-border-radius: 50%;
+                  -o-border-radius: 50%;                  
+            }
+      }
+      .name_position{
+            margin-left: 12px;
+      }
+}
+.client_prev
+{
+      position: absolute;
+      border-radius: 50%;
+      right: 64px;
+      bottom: 36%;
+      height: 40px;
+      width: 40px;
+      border: 1px solid $royal_blue;
+      line-height: 40px;
+      text-align: center;
+      transition: .5s;
+      -webkit-transition: .5s;
+      -moz-transition: .5s;
+      -ms-transition: .5s;
+      -o-transition: .5s;
+}
+.client_prev,.client_next{
+      &:hover{
+            background: $background_blue;
+            color: $white;
+      }
+}
+.client_next{
+      position: absolute;
+      border-radius: 50%;
+      right: 120px;
+      bottom: 36%;
+      height: 40px;
+      width: 40px;
+      border: 1px solid $royal_blue;
+      line-height: 40px;
+      text-align: center;
+      transition: .5s;
+      -webkit-transition: .5s;
+      -moz-transition: .5s;
+      -ms-transition: .5s;
+      -o-transition: .5s;
+}

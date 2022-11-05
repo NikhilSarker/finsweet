@@ -1,0 +1,40 @@
+
+#contact-us{
+      padding: 60px 0;
+      h2{
+            margin-bottom: 10px;
+      }
+}
+.form-part{
+      margin-top: 60px;
+      background: $background_gray;
+      padding: 40px;
+      input {
+            width: 49.6%;
+            padding: 8px 10px;
+            margin-top: 15px;
+            background: none;
+            border: 1px solid #000000;
+            color:black;
+            margin-top: 25px;
+          }
+          textarea{
+            background: none;
+            border: 1px solid #000000;
+            margin-top: 40px;
+            
+                  width: 99.5%;
+                  padding: 10px;
+                
+          }
+          .contact_button{
+            margin-top: 20px;
+            a{
+                  @include button_style(bg);
+                  background: $dark_blue;
+                  color: $white;
+                  font-size: 16px;
+                 
+            }
+          }
+}

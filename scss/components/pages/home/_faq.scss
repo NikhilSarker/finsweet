@@ -1,0 +1,28 @@
+
+#quertion{
+      padding: 50px 0;
+}
+.ask_querstion{
+      margin-top: 40px;
+      p{
+            margin-top: 10px;
+            color: $royal_blue;
+      }
+}
+.accordion-button:not(.collapsed){
+      border: none;
+}
+.accordion{
+      --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem none;
+      --bs-accordion-active-bg: none;
+}
+.accordion-item{
+      span{
+            font-size: 28px;
+            color: $royal_blue;
+            margin-right: 20px;
+      }
+      p{
+            margin-left: 56px;
+      }
+}

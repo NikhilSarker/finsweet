@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* start common style
+   ========:::::==== */
+   *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+  h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+  
+  }
+  p{
+      padding: 0;
+      margin: 0;
+      
+    }
+  
+  input:focus,button:focus,textarea:focus{
+      outline: 0;
+  }
+  ul, ol,li{
+      list-style: none;
+      padding: 0;
+      display: inline-block;
+      margin: 0; 
+  }
+//   span{
+      
+//       font-family: 'Kaushan Script', cursive;
+//   }
+  a{
+      text-decoration: none !important;
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      
+     
+  }
+
+  
+//  start font style    
+h1
+{
+    font-size: 54px;  
+    font-weight: 600;
+    color: $white;
+   
+}
+h2
+{
+      font-size: 48px;  
+      font-weight: 600;
+      color: $dark_blue;
+  }
+  h3
+  {
+      font-size: 38px;  
+      font-weight: 600;
+      color: $dark_blue;
+  }
+  h4
+  {
+      font-size: 32px;  
+      font-weight: 500;
+      // color: $white;
+  }
+  h5
+  {
+      font-size: 24px;  
+      font-weight: 500;
+      color: $dark_blue;
+  }
+  h6
+  {
+      font-size: 18px;  
+      font-weight: 500;
+      color: $dark_blue;   
+  }
+  p
+  {
+      font-size: 16px;
+      font-weight: 400;
+      color: $dark_blue;
+      line-height: 28px;
+  }
+  span
+  {
+      font-size: 12px;
+      font-weight: 400;
+      color: $dark_blue; 
+  }
+  a
+  {
+      font-size: 20px;
+      font-weight: 500;
+      color: $dark_blue;  
+  }
+  i{
+    font-size: 18px;
+  }
+  // end font style
+ 
+  /*  end common style
+      ========:::::======*/

@@ -1,0 +1,43 @@
+
+#feature-work
+{
+      padding: 20px 0;
+     .work_heading{
+      margin-bottom: 20px;
+     }
+      
+      .work_logo{
+            margin-bottom: 80px;
+      }
+      
+}
+#client{
+      padding: 50px 0;
+      .client_content{
+            margin-top: 40px;
+      }
+      .agency_content{
+            padding: 15px 0;
+      }
+}
+
+#revision{
+      background: $background_gray;
+      padding: 80px 0;
+      .revision_content{
+            margin-top: 60px;
+            .revision_heading{
+                  padding: 15px 0;
+            }
+      }
+}
+#support{
+      background: #fcd98073;
+      padding: 80px 0;
+      .support_content{
+            margin-top: 60px;
+            .working_content{
+                  padding: 15px 0;
+            }
+      }
+}

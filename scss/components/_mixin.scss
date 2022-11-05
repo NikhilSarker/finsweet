@@ -1,0 +1,11 @@
+
+ @mixin button_style($bg)
+  {
+   padding: 14px 34px;
+   border: 1px solid $gray;
+   border-radius: 41px;
+   -webkit-border-radius: 41px;
+   -moz-border-radius: 41px;
+   -ms-border-radius: 41px;
+   -o-border-radius: 41px;
+   }

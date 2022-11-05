@@ -1,0 +1,52 @@
+@import"./components/variables";
+@import"./components/common_style";
+@import"./components/mixin";
+
+// Home pages
+@import"./components/pages/home/header";
+@import"./components/pages/home/banner";
+@import"./components/pages/home/work";
+@import"./components/pages/home/project";
+@import"./components/pages/home/feature";
+@import"./components/pages/home/clients";
+@import"./components/pages/home/faq";
+@import"./components/pages/home/query";
+@import"./components/pages/home/blog";
+@import"./components/pages/home/footer";
+
+// About page
+@import"./components/pages/about/about";
+@import"./components/pages/about/we-are";
+@import"./components/pages/about/follow";
+@import"./components/pages/about/mision-vision";
+@import"./components/pages/about/benefits";
+
+//Pricing
+@import"./components/pages/pricing/pricing";
+
+//Feature page
+@import"./components/pages/feature/feature";
+
+//Privacy
+@import"./components/pages/privacy/privacy";
+
+//Contact
+@import"./components/pages/contact/contact";
+
+// Blog
+@import"./components/pages/blog/readBlog";
+
+//Blog page
+@import"./components/pages/blogPage/blogpage";
+
+//Readstudy
+@import"./components/pages/readstudy/readstudy";
+
+//Work
+@import"./components/pages/work/work";
+
+
+
+
+
+

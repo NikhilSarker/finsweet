@@ -1,0 +1,74 @@
+#work{
+      padding: 60px 0;
+      background: #fff;
+}
+.benefit_item{
+      margin-top: 30px;
+      background:$background_gray;
+      padding: 48px;
+      i{
+            color: $royal_blue;
+            
+      }
+      h5{
+            padding: 10px 0;
+      }
+     
+}
+.work_logo{
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-between;
+      img{
+            height: 40px;
+      }
+}
+
+
+#team{
+      background:$background_gray;
+      padding: 70px 0;
+      
+}
+.team_item{
+      margin-top: 40px;
+      background:white;
+      padding: 45px 40px ;
+      .team_img{
+            position: relative;
+            .team_overlay{
+                  position: absolute;
+                  top: 0;
+                  left: 30px;
+                  opacity: 0;
+                  .team_social{
+                        position: absolute;
+                        bottom: 15px;
+                        left: 56px;
+                        i{
+                              color: $white;
+                              font-size: 16px;
+                              margin-right: 4px;
+                             
+                        }
+      
+                  }
+      
+            }
+      }
+      &:hover .team_overlay{
+            opacity: 1;
+             
+      }
+      .name_position{
+            margin-top: 20px;
+      }
+}
+.team_overlay{
+      transition: .5s;
+      -webkit-transition: .5s;
+      -moz-transition: .5s;
+      -ms-transition: .5s;
+      -o-transition: .5s;
+}
+

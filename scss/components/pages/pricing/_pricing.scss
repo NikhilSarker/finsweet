@@ -1,0 +1,101 @@
+
+#pricing{
+      padding: 50px 0;
+      .pricing_heading{
+            h2{
+                  margin-bottom: 15px;
+            }
+      }
+      .pricing_item{
+            margin-top: 60px;
+            .pricing_content{
+                  margin-left: 40px;
+            }
+            background:$background_gray;
+            padding: 40px 0;
+            border-radius: 10px;
+            h3{
+                  padding: 12px 0;
+            }
+            h5{
+                  margin-bottom: 15px;
+            }
+            .design {
+                  margin-top: 20px;
+                  margin-left: 10px;
+                  i{
+                        margin-right: 8px;
+                        font-size: 23px;
+                      }
+                }
+                .all_work{
+                  margin-top: 19px;
+                  a{
+                        display: block;
+                        font-size: 17px;
+                        margin-top: 13px;
+                        i{
+                              margin-right: 10px;
+                              font-size: 14px;
+                        }
+                  }
+            }
+            .pricing_button{
+                  margin-left: 50px;
+                  a{
+                        @include button_style(bg);
+                        background: $background_blue;
+                        color: $white;
+                        border: none;
+                        padding: 14px 60px;
+                        font-size: 18px;
+                        margin-top: 30px;
+                  }
+            }
+            &:hover {
+                  background:$background_blue;
+                  
+            }
+          
+            &:hover p {
+                 
+                  color: $yellow;
+            }
+            
+               
+      }
+     
+}
+
+.pricing_item{
+      &:hover h3{
+                 
+            color: $white;
+     }
+
+}
+.pricing_item{
+      &:hover h5{
+                 
+            color: $white;
+     }
+
+}
+.pricing_item{
+      &:hover a {
+                 
+            color: $white;
+     }
+
+}
+.pricing_item{
+      &:hover .pricing_button a{
+                 
+           background: red;
+     }
+
+}
+
+
+  
+  

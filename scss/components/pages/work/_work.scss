@@ -1,0 +1,49 @@
+
+#work_protfolio{
+      background: $background_gray;
+      padding: 60px 0;
+     h2{
+      padding-bottom: 15px;
+     }
+      .social_link{
+            margin-top: 26px;
+            i{
+                 margin: auto 8px;
+            }
+      }
+} 
+
+#our_work{
+      padding: 60px 0;
+      .work_button{
+            button{
+                  background: none;
+                  border: none;
+                  padding: 15px ;
+                  font-size: 20px;
+            }
+            .active{
+                  color:$royal_blue;
+             }
+
+      }
+      
+      .card_item
+      {
+            margin-top: 60px;
+            .card_content{
+                  margin-top: 30px;
+                  p{
+                        padding: 10px 0;
+                  }
+                  i{
+                        margin-left: 6px;
+                  }
+            }
+      }
+}
+      
+     
+
+
+
